@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.">
+    <title>Pequeño Pinguino</title>
+</head>
+<body>
+    <h1>SVG</h1>
+
+    <svg style="width: 500px;height: 500px; border: 2px solid blue; padding-top:28px">
+        <!--Tronco + cabeza-->
+
+        <!--Circulo gris-->
+        <circle cx="100" cy="40" r="40" fill="#333333" stroke="#333333" strokewidth="4"></circle>
+        <!--Elipse gris-->
+        <ellipse cx="100" cy="100" rx="50" ry="60" fill="#333333" stroke="#333333" strokewidth="4"></ellipse>
+
+        <!--Circulo beige-->
+        <circle cx="100" cy="40" r="30" fill="#F0F5E4"> </circle>
+        
+        <!--Elipse beige-->
+        <ellipse cx="100" cy="100" rx="40" ry="55" fill="#F0F5E4" stroke="#F0F5E4" strokewidth="4"></ellipse>
+
+
+        <!--CARA-->
+        <!--OJOS-->
+        <circle cx="90" cy="30" r="5" fill="#000000" stroke="000000" strokewidth="4"></circle>
+        <circle cx="110" cy="30" r="5" fill="#000000" stroke="000000" strokewidth="4"></circle>
+        <!--pupila-->
+        <circle cx="92" cy="28" r="2" fill="#FFFFFF" stroke="000000" strokewidth="4" ></circle>
+        <circle cx="112" cy="28" r="2" fill="#FFFFFF" stroke="000000" strokewidth="4" ></circle>
+        
+        <!--PICO-->
+        <polygon points="95 40,105 40,100 60" x="98" y="30" fill="#F1C40F" stroke="#f39c12" strokewidth="4"   ></polygon>
+
+        <!--Patas-->
+        <!--Pata der-->
+        <polyline points="110 159, 120 172, 122 165, 130 168, 128 162, 140 166, 125 152" fill="#f1c40f" stroke="#f39c12" strokewidth="10"></polyline>
+
+        <!--Pata izq-->
+        <polyline points="71 150, 60 165, 70 160, 70 170, 76 162, 80 172, 85 158" fill="#f1c40f" stroke="#f39c12" strokewidth="10"></polyline>
+        
+        <!--ALAS-->
+        <!--Aleta derecha-->
+        <polyline points="143 70, 200 100, 190 100, 149 90" fill="#333333" stroke="#333333" strokewidth="10"></polyline>
+
+        <!--Aleta izq-->
+        <polyline points="60 70, 4 100, 14 100, 60 88" fill="#333333" stroke="#333333" strokewidth="10"></polyline>
+
+        <!--Cubo de hielo-->
+        <rect x="200" y="120" width="50" height="50" fill="#ADD8E6" stroke="darkblue" strokewidth="10" rx="4"></rect>
+
+        <polygon points="203 120, 220,110, 260 110, 250 120" fill="#ADD8E6" stroke="darkblue" stroke="#ADD8E6" strokewidth="4" rx="4" ry="4"></polygon>
+
+        <polygon points="261 110, 261 155, 250 169, 249 120" fill="#ADD8E6" stroke="darkblue" stroke="#ADD8E6"></polygon> 
+       
+        <polyline points="202 122, 212 122, 202 130" fill="#FFFFFF" stroke="#F0F5E4" strokewidth="10"></polyline>
+
+    </svg>
+</body>
+</html>
